@@ -1,7 +1,6 @@
 # Write your MySQL query statement below
 
 select left(trans_date, 7) as month, 
-#select DATE_FORMAT(trans_date,"%Y-%m") AS month, 
   country, 
   count(id) as trans_count,
   sum(
